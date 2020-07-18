@@ -2,10 +2,10 @@
   "name": "servernodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server",
+  "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
