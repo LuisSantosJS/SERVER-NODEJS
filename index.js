@@ -1,10 +1,8 @@
-var express = require('express');
-var cors = require('cors')
-var app = express();
+const express = require('express');
+const routes = require('./routes');
 
+const app = express();
 app.use(express.json());
-app.use(cors());
-
-app.get('/', (req, res) => res.send('hello world'));
+app.use(routes);
 
 app.listen(3000, ()=> console.log('server running'));
